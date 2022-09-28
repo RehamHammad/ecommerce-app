@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap');
+
 body {
+  background-color:rgb(242, 242, 242) !important;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Montserrat Alternates', sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +11,193 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* navbar */
+.nav-link{
+ color:RGB(102, 102, 102) !important;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.navbar-brand{
+  font-size: 35px;
+  font-weight: 700;
+  color:rgb(97, 218, 251) !important;
+}
+
+.nav-item .nav-link:hover{
+  color:rgb(97, 218, 251) !important;
+}
+
+
+/* home */
+
+.carousel-indicators button{
+  width: 12px !important;
+  height: 12px !important;
+  border-radius: 50% !important;
+  background-color: #343333 !important;
+}
+.carousel-caption p{
+  color:rgb(34, 34, 34);
+    font-size: 55px;
+    line-height: 65px;
+    margin-bottom: 26px;
+    text-align: left;
+    text-transform: capitalize;
+    letter-spacing: -0.2px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.carousel-caption button{
+  border-radius: 20px;
+  margin-right:40rem !important;
+  font-weight: 500;
+
+}
+
+
+.carousel-caption{
+  position: absolute !important;
+  right: 40% !important;
+  bottom:5rem !important;
+  left: 10% !important;
+  padding-top: 5% !important;
+  padding-bottom: 3rem !important;
+  text-align: center !important;
+  color:rgb(34, 34, 34) !important;
+}
+.carousel-caption h5{
+  color:rgb(102, 102, 102);
+  text-align: left !important;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.4px;
+}
+
+.form-control:focus{
+  box-shadow: 0 0 0 1px rgb(51, 52, 51) !important;
+}
+form button{
+  border-radius: 20px !important;
+  padding: 8px 20px !important;
+}
+
+.caption{
+  position: absolute !important;
+  right: 50% !important;
+  bottom: 6rem !important;
+  left: 10%;
+  color:rgb(34, 34, 34) !important;
+}
+.item:hover img{
+ transform: scale(1.1);
+}
+.img{
+  transition: transform 1s;
+}
+
+.item-img img{
+  transition: transform 1s;
+}
+.item-img{
+  overflow: hidden !important;
+}
+
+.line{
+  width: 100%;
+  height: 0.1px;
+  background-color: rgba(115, 115, 115, 0.342) !important;
+ 
+}
+
+.footer-item input{
+  border-radius: 20px !important;
+}
+.fa-spin{
+  font-size: 22px;
+}
+.fa-brands:hover{
+ color: rgb(66, 70, 73);
+}
+
+h2{
+  font-weight: 800;
+}
+.h6{
+  font-weight: 900;
+  color: black;
+}
+.product:hover img{
+ transform: scale(1.1);
+}
+.product img{
+  transition: transform 1s;
+}
+.img{
+  overflow: hidden;
+  position: relative;
+ border-radius: 15px;
+
+}
+.img-caption{
+  background-color:rgba(70, 74, 77,.3);
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 1s;
+ 
+}
+.product:hover .img-caption{
+   top: 0;
+}
+/*about*/
+.about,.contact{
+  background-color: #fff !important;
+  padding: 50px;
+}
+.about p{
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.about h5{
+  font-size: 19px;
+  line-height:24.7px;
+  font-weight: 600;
+}
+
+/* contact*/
+.item h2{
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 43px;
+}
+
+.fa-star{
+  color: gold !important;
+}
+.details-img img{
+  border-radius: 12px;
+}
+/* details */
+.details-img img{
+  transition: all 1s;
+}
+.details-img img:hover{
+  transform: scale(1.1);
+}
+
+.footer{
+  background-color:rgb(220, 220, 218) !important;
+  padding: 40px;
+  /* color: #fff; */
 }
